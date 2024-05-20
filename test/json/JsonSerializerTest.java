@@ -1,11 +1,13 @@
 package json;
 
+import Chapter15.json.JsonSerializer;
+import Chapter15.json.Person;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
 
-import static json.Gender.MALE;
+import static Chapter15.json.Gender.MALE;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class JsonSerializerTest {
@@ -19,7 +21,7 @@ class JsonSerializerTest {
         person.setGender(MALE);
         person.setPhoneNumber("08034657717");
 
-        String json =JsonSerializer.serialize(person);
+        String json = JsonSerializer.serialize(person);
         System.out.println(json);
         String expected = "{\"name\":\"Joe\",\"phoneNumber\":\"08034657717\",\"gender\":\"MALE\",\"dob\":[2024,5,6]}";
         assertEquals(expected, json);
@@ -32,6 +34,5 @@ class JsonSerializerTest {
         System.out.println(person.toString());
         String name = person.getName();
         assertEquals("Toni", name);
-
     }
 }

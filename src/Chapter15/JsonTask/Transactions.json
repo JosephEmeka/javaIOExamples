@@ -1,0 +1,31 @@
+[
+  {
+    "id": "1",
+    "name": "John Smith",
+    "amount": "2000",
+    "type": "DEBIT",
+    "date": "2024-05-16"
+  },
+  {
+    "id": "2",
+    "name": "Sam Larry",
+    "amount": "3000",
+    "type": "DEBIT",
+    "date": "2024-05-16"
+  },
+  {
+    "id": "3",
+    "name": "Jack ma",
+    "amount": "5000",
+    "type": "CREDIT",
+    "date": "2024-05-16"
+  },
+  {
+    "id": "4",
+    "name": "Obama Joe",
+    "amount": "9000",
+    "type": "CREDIT",
+    "date": "2024-05-16"
+  }
+
+]

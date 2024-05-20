@@ -1,3 +1,4 @@
+package Chapter15.files;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -12,5 +13,4 @@ public class Example6 {
             System.err.println(exception.getMessage());
         }
     }
-
 }

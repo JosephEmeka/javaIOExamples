@@ -1,4 +1,4 @@
-package json;
+package Chapter15.json;
 
 public enum Gender {
     MALE,
