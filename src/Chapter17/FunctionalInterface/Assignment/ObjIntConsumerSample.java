@@ -10,4 +10,4 @@ public class ObjIntConsumerSample {
             consumer.accept("Java", 9);
         }
     }
-}
+

@@ -26,6 +26,54 @@
     "amount": "9000",
     "type": "CREDIT",
     "date": "2024-05-16"
+  },
+  {
+    "id": "5",
+    "name": "Elon musk",
+    "amount": "9060",
+    "type": "CREDIT",
+    "date": "2024-05-16"
+  },
+
+  {
+    "id": "6",
+    "name": "xi jin ping",
+    "amount": "1200",
+    "type": "CREDIT",
+    "date": "2024-05-16"
+  },
+
+  {
+    "id": "7",
+    "name": "putin vladimir",
+    "amount": "4200",
+    "type": "CREDIT",
+    "date": "2024-05-19"
+  },
+
+  {
+    "id": "8",
+    "name": "Cattle kent",
+    "amount": "9090",
+    "type": "CREDIT",
+    "date": "2024-05-19"
+  },
+
+  {
+    "id": "9",
+    "name": "Obama stanley",
+    "amount": "80000",
+    "type": "CREDIT",
+    "date": "2024-05-16"
+  },
+
+  {
+    "id": "10",
+    "name": "Obama Joseph",
+    "amount": "9500",
+    "type": "CREDIT",
+    "date": "2024-05-16"
   }
+
 
 ]

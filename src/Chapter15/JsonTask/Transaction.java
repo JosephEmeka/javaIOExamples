@@ -18,6 +18,8 @@ public class Transaction {
 
     public Transaction(String number, String number1) {
     }
+    public Transaction() {
+    }
 
     public String getId() {
         return id;
